@@ -12,11 +12,24 @@ input {
 }
 
 .menu-item {
-  padding: 10px;
+  padding: 10px 15px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.nav-item {
+  padding: 10px 15px;
   white-space: nowrap;
   font-size: 14px;
 }
 
 .header-row {
   height: 140px;
+}
+
+.ham-bar {
+  width: 22px;
+  height: 4px;
+  background-color: black;
+  margin: 4px 0;
 }
