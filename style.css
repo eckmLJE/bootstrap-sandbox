@@ -1,5 +1,6 @@
 #logo-container {
   height: 100%;
+  max-height: 80px;
 }
 
 #logo-container img {
@@ -11,6 +12,11 @@ input {
   padding-left: 5px;
 }
 
+.header-row {
+  max-width: 1600px;
+  margin: auto;
+}
+
 .menu-item {
   padding: 10px 15px;
   white-space: nowrap;
@@ -18,13 +24,18 @@ input {
 }
 
 .nav-item {
-  padding: 10px 15px;
+  padding: 10px 20px;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 16px;
+  color: white;
 }
 
 .header-row {
-  height: 140px;
+  height: 110px;
+}
+
+.hamburger {
+  cursor: pointer;
 }
 
 .ham-bar {
